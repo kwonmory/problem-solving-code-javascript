@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["dom","es5","es6","es7", "es2015"]
+  },
+  "exclude": ["*.js", "*.java"],
+  "include": [
+    "src/**/*"
+  ]
+}
