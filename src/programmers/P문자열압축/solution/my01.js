@@ -48,7 +48,9 @@ function 압축된문자열함수(str, n) {
 }
 
 /*
+    https://programmers.co.kr/learn/courses/30/lessons/60057
     문자열을 자를땐 1개부터 문자열 길이 전체의 반까지만 게싼해보면 되는거지
+
 */
 
 module.exports = solution;
