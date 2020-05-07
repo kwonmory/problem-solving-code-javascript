@@ -20,6 +20,8 @@ function solution(d, budget) {
 module.exports = solution;
 
 /*
+https://programmers.co.kr/learn/courses/30/lessons/12982
+
 [첫번째 생각]
 정렬하고 하나씩 빼주면 끝나는 문제 아닌가?
 

@@ -57,6 +57,8 @@ function solution(budgets, M) {
 module.exports = solution;
 
 /*
+    https://programmers.co.kr/learn/courses/30/lessons/43237
+
     먼저 정렬하고, 하나씩 빼면서 M이 0 이상이면
 
 
