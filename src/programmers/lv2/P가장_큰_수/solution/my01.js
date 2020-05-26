@@ -1,14 +1,19 @@
 function solution(numbers) {
-    const str = [];
-    numbers.forEach(v => str.push(String(v)));
+    const numberArr = numbers.map(v => v.toString());
 
-    str.sort((a,b) => {
+    numberArr.sort((a,b) => {
+        return (b + a).localeCompare(a + b);
+    });
 
-    }).reverse();
+    if (numberArr[0] === '0') {
+        return '0';
+    }
 
+    const ans = numberArr.reduce((acc, v) => {
+        return acc += v;
+    }, '');
 
-
-    return str.reduce((acc, v) => acc += v, '');
+    return ans;
 }
 
 module.exports = solution;
