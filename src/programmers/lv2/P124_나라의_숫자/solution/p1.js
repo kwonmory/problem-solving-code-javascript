@@ -14,7 +14,7 @@ function solution(n) {
     }
 
 
-    return Number(ans.reverse().join(''));
+    return ans.reverse().join('');
 }
 
 export default solution;
@@ -22,5 +22,5 @@ export default solution;
 /*
     https://programmers.co.kr/learn/courses/30/lessons/12899?language=javascript
 
-    나머지가 1,2, 3 일 때 각각 처리해줘야되는 상황으로 느껴짐
+    이 문제 답이 이상함, 숫자로 출력하라고 하는거 같은데 문자로 출력하래..
  */
